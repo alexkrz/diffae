@@ -1,3 +1,6 @@
+# IDE
+/.vscode/
+
 temp
 __pycache__
 generated
