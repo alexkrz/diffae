@@ -1,7 +1,5 @@
 pytorch-lightning==1.7.7
 torchmetrics==0.9.3
-# torch==1.8.1
-# torchvision
 scipy==1.5.4
 numpy==1.21.5
 pytorch-fid==0.2.0
@@ -12,5 +10,6 @@ tqdm==4.62.3
 ftfy==6.1.1
 regex==2022.7.25
 matplotlib==3.5.3
+opencv-python==4.8.0.76
 jupyterlab==4.3.*
-opencv-python==4.5.4.58
+ipywidgets==8.1.*
