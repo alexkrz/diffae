@@ -13,3 +13,4 @@ ftfy==6.1.1
 regex==2022.7.25
 matplotlib==3.5.3
 jupyterlab==4.3.*
+opencv-python==4.5.4.58
