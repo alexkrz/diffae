@@ -1,3 +1,21 @@
 {
-    "python.formatting.provider": "yapf"
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": false,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    },
+    "ruff.lineLength": 99,
+    "ruff.lint.ignore": [
+        "F401", // Ignore unused imports
+        "F841", // Ignore unused variables
+        "F403", // Handling star imports
+        "F405", // Handling star imports
+    ],
+    "notebook.codeActionsOnSave": {
+        "notebook.source.organizeImports": "never"
+    },
+    "notebook.formatOnSave.enabled": false,
 }
